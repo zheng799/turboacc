@@ -8,6 +8,9 @@ on:
             paths:
               - '!README.md'
               - '!.github/**'
+env:
+  REPO_URL: https://github.com/zheng799/ipq60xx-6.1.git
+  
 jobs:
   build:
     runs-on: ubuntu-20.04
