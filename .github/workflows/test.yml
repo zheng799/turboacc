@@ -61,7 +61,6 @@ jobs:
     
           - name: 克隆源代码
             run: |
-                git clone https://github.com/zheng799/ipq60xx-6.1.git
                 git clone $REPO_URL -b $REPO_BRANCH openwrt
                 cd openwrt
                 export OPENWRT_ROOT_PATH="$(pwd)"
